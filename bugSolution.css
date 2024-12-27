@@ -1,0 +1,9 @@
+The `calc()` function requires spaces around the operators.  Incorrect: `width:calc(100%-10px);`  Correct: `width:calc(100% - 10px);`
+
+Here's the fixed CSS:
+```css
+div {
+  width: calc(100% - 20px);
+  height: calc(50vh + 10px);
+}
+```
